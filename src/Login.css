@@ -1,0 +1,82 @@
+#login_body, .login_cont, .login_form_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login_body{
+    height: 100vh;
+    justify-content: center;
+    background-color: rgba(36,36,36,255);
+}
+.login_cont{
+    height: 60%;
+    width: 40%;
+    justify-content: space-around;
+}
+.login_head h2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #74cd86;
+}
+
+.login_form_cont, #login_form{
+    height: 70%;
+    width: 70%;
+}
+#login_form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#login_form p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #74cd86;
+}
+#login_email, #login_pass{
+    padding-left: 15px;
+    height: 15%;
+    width: 85%;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    color: white;
+    border:2px solid #373737 ;
+    background-color: transparent;
+}
+.pass_check{
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    margin-right: 25%;
+}
+#login_but, #login_sign_but, #login_sign_but_inp{
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+    border: none;
+    background-color: #7ee091;
+}
+#login_but{
+    height: 15%;
+    width: 90%;
+}
+#login_sign_but{
+    height: 10%;
+    width: 65%;
+}
+#login_sign_but_inp{
+    height: 100%;
+    width: 100%;
+}
+#login_but:hover, #login_sign_but_inp:hover{
+    background-color: #a4f8b4;
+}

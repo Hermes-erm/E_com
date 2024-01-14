@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ysabeau+Office&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gasoek+One&family=Lobster&family=Single+Day&display=swap');
+
+*{
+  /* border: 1px solid black; */
+  margin: 0;
+}
+body{
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+body::-webkit-scrollbar{
+  width: 6px;
+	background-color: hsl(0, 0%, 96%);
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+	background-color: #414141;
+}

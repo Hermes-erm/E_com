@@ -1,0 +1,123 @@
+.cartcomp_body{
+    min-height: 35%;
+    max-height: 35%;
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #334155;
+}
+
+/*product_details*/
+.prod_det{
+    /* position: relative; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.cart_prod_img{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.cart_prod_img > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* top: 0; */
+}
+.cart_prod_title{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart_prod_title p{
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*prod_quantity*/
+.prod_quantity{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prod_quant_but{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prod_quant_count{
+    height: 100%;
+    width: 35%;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:default;
+}
+#prod_quant_minus, #prod_quant_add{
+    height: 100%;
+    width: 35%;
+    font-size: x-large;
+    cursor: pointer;
+    transition: 200ms;
+    border: none;
+}
+#prod_quant_add{
+    /* background-color: rgb(0, 0, 65); */
+    background-color: #2563eb;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#prod_quant_minus{
+    background-color: #94a3b8;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#prod_quant_minus:hover, #prod_quant_add:hover{
+    opacity: 0.8;
+}
+
+
+/*product_remove*/
+.prod_remove{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prod_rem_but{
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+    transition: 200ms;
+}
+#prod_rem_but:hover{
+    opacity: 0.7;
+}
+
+/*product_price*/
+.cart_prod_price{
+    height: 90%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
